@@ -1,0 +1,7 @@
+week 14 Zoom lesson.
+(a) "Dockerfile.dev" for creating custom image for React App development server
+(b) use "winpty docker run -it <img_ID> npm run test" to run tests in container
+
+week 15 Zoom lesson
+(a) Use "docker-compose up" to run container
+(b) Use a 2nd Gitbash to run and perform tests using "winpty docker execc -it <container_ID> npm run test"
