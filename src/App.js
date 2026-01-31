@@ -7,7 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Bye there!</p>
+        <p>
+          {process.env.REACT_APP_NAME === 'production' 
+          ? "This is the Production Server" 
+          : "This is the Development Server"}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
