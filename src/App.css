@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.production-banner {
+  background: #764ba2;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.production-banner h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.production-banner p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  opacity: 0.9;
+}
+
+.production-footer {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid #667eea;
+}
+
+.production-footer p {
+  margin: 0 0 10px 0;
+  font-size: 0.95em;
+}
+
+
+.production-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.production-footer .small {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
