@@ -33,5 +33,6 @@ services:
     ports: 
       - '8080:80'
     volumes:
-      - /nginx/logs:/var/log/nginx
+      - /etc/nginx/conf.d
+      - /var/log/nginx
       
